@@ -1,0 +1,15 @@
+list = ["abc","pqr","lmn","bef","abc"]
+print(list)
+list.sort()
+print(list)
+
+print(list)
+print(dir(list))
+print(list.__len__())
+print(list.count("abc"))
+print(dir(list))
+print(list.index("pqr"))
+print(list.index("abc"))
+print(list)
+print(list.__getitem__(0))
+print(list[0])
