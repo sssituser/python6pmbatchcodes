@@ -1,0 +1,17 @@
+x = {10,20,30}
+print("set : ",x)#{10,20,30}
+x.clear()
+print("set : ",x)#set()
+#x.pop()
+x.add(10)
+x.add(20)
+x.add(30)
+x.add(40)
+x.add(50)
+print(x)
+x.remove(20)
+print(x)
+x.discard(30)
+print(x)
+x.discard(30)
+print(x)

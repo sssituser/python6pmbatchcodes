@@ -1,0 +1,5 @@
+li =(10,20,30,40)
+print(li[0],li[-4])
+print(li[0:2])
+print(li[-4:-3])
+print(li[::-1])
