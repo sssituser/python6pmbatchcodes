@@ -20,8 +20,6 @@ def getDigitsSum(num): # 123
         num//=10 # num = 123//10 num = 12//10 num = 1//10 num = 0
     return sum
 
-
-
 def getLuckyNumber(dob):
     li = dob.split('-')
     date = int(li[0])
